@@ -17,9 +17,7 @@ This repository was developed as **Task 1** for the AICTE Oasis Infobyte Interns
 
 ## 🌐 Streamlit App
 
-**Live Demo:** [Add Your Streamlit App Link Here](#)  
-_Please insert the deployed app URL above._
-
+**Live Demo:** [Streamlit app](https://oibsip-iris-flower-classification.streamlit.app/)
 ---
 
 ## 📊 Dataset
@@ -79,6 +77,3 @@ _Please insert the deployed app URL above._
 
 [MIT](LICENSE)
 
----
-
-_Created with ❤️ during my AICTE Oasis Infobyte Internship, using Python & Streamlit._
