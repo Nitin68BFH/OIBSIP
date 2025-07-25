@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 #loading model
-model = joblib.load('iris_model.pkl')
+model = joblib.load('iris_model.joblib')
 class_names = ['Iris-setosa','Iris-versicolor','Iris-virginica']
 #user input function
 def user_input():
