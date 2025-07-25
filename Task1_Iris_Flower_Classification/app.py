@@ -3,13 +3,12 @@ import numpy as np
 import os
 import joblib
 
-# This always finds the model relative to the location of app.py, wherever the app is run
-model_path = os.path.join(os.path.dirname(__file__), 'iris_model.joblib')
-model = joblib.load(model_path)
 
 
 #loading model
-model = joblib.load('iris_model.joblib')
+model_path = os.path.join(os.path.dirname(__file__), 'iris_model.joblib')
+model = joblib.load(model_path)
+
 class_names = ['Iris-setosa','Iris-versicolor','Iris-virginica']
 #user input function
 def user_input():
