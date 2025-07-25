@@ -4,7 +4,7 @@ import os
 import joblib
 
 # This always finds the model relative to the location of app.py, wherever the app is run
-model_path = os.path.join(os.path.dirname(__file__), 'iris_model.pkl')
+model_path = os.path.join(os.path.dirname(__file__), 'iris_model.joblib')
 model = joblib.load(model_path)
 
 
