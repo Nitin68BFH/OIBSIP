@@ -176,7 +176,7 @@ st.title("Second Hand Vehicle Price Predictor")
 
 # Layout with two columns
 with st.container():
-    left_column, right_column = st.columns([1, 2]) 
+    right_column, left_column = st.columns([1, 2]) 
 
 with right_column:
     company = st.selectbox("Select Company", options=list(companies.keys()))
