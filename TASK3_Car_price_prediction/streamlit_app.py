@@ -175,7 +175,8 @@ model_images = {
 st.title("Second Hand Vehicle Price Predictor")
 
 # Layout with two columns
-left_column, right_column = st.columns(2)
+with st.container():
+    left_column, right_column = st.columns([1, 2]) 
 
 with right_column:
     company = st.selectbox("Select Company", options=list(companies.keys()))
@@ -205,7 +206,7 @@ input_df = pd.DataFrame([{
 }])
 if st.button("Predict Price"):
     prediction = ml_model.predict(input_df)[0]
-    st.success(f"Predicted Price: ₹{round(prediction, 2)} lakhs")
+    st.success(f"💰Predicted Price: ₹{round(prediction, 2)} lakhs")
 
 
 # Left side image display
