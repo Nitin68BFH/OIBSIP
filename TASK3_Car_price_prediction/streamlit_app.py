@@ -176,7 +176,7 @@ st.title("Second Hand Vehicle Price Predictor")
 
 # Layout with two columns
 with st.container():
-    left_column, right_column = st.columns([2,1]) 
+    left_column, right_column = st.columns([1,1]) 
 
 
 
