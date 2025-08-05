@@ -17,7 +17,7 @@ This repository was developed as part of a data science and machine learning lea
 
 ## 🌐 Streamlit App
 
-**Live Demo:** [Streamlit app](https://your-streamlit-app-url) <!-- Replace with actual URL if hosted -->
+**Live Demo:** [Streamlit app](https://oibsip-task3-car-price-prediction.streamlit.app/) <!-- Replace with actual URL if hosted -->
 
 ---
 
@@ -60,9 +60,9 @@ This repository was developed as part of a data science and machine learning lea
 
 <img src="result.png" alt="app-interface" width="350"/>
 <br>
-<img src="r1.jpg" alt="result_price" width="300"/>
+<img src="r1.png" alt="result_price" width="300"/>
 
-*Note: Replace with your actual images or remove this section if not applicable.*
+
 
 ---
 
