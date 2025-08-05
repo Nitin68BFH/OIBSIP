@@ -215,4 +215,4 @@ with left_column:
     
     if os.path.exists(image_path):
         image = Image.open(image_path)
-        st.image(image , use_column_width=True)
+        st.image(image , use_container_width=True)
