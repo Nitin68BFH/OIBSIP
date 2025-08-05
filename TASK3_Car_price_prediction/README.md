@@ -58,9 +58,9 @@ This repository was developed as part of a data science and machine learning lea
 
 ## 🖼️ Visuals
 
-<img src="car_features.png" alt="Feature Visualization" width="350"/>
+<img src="result.png" alt="app-interface" width="350"/>
 <br>
-<img src="car_image.jpg" alt="Used Car" width="300"/>
+<img src="r1.jpg" alt="result_price" width="300"/>
 
 *Note: Replace with your actual images or remove this section if not applicable.*
 
