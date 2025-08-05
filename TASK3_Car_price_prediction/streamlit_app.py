@@ -178,6 +178,15 @@ st.title("Second Hand Vehicle Price Predictor")
 with st.container():
     right_column, left_column = st.columns([1, 2]) 
 
+# Left side image display
+with left_column:
+    relative_path = model_images[model]
+    image_path = os.path.join(base_path, relative_path)
+    
+    if os.path.exists(image_path):
+        image = Image.open(image_path)
+        st.image(image , use_container_width=True)
+
 with right_column:
     company = st.selectbox("Select Company", options=list(companies.keys()))
     models = companies[company]
@@ -209,11 +218,4 @@ if st.button("Predict Price"):
     st.success(f"💰Predicted Price: ₹{round(prediction, 2)} lakhs")
 
 
-# Left side image display
-with left_column:
-    relative_path = model_images[model]
-    image_path = os.path.join(base_path, relative_path)
-    
-    if os.path.exists(image_path):
-        image = Image.open(image_path)
-        st.image(image , use_container_width=True)
+
