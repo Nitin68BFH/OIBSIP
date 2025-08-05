@@ -210,6 +210,9 @@ if st.button("Predict Price"):
 
 # Left side image display
 with left_column:
-    image_path = model_images[model]
-    image = Image.open(image_path)
-    st.image(image)
+    relative_path = model_images[model]
+    image_path = os.path.join(base_path, relative_path)
+    
+    if os.path.exists(image_path):
+        image = Image.open(image_path)
+        st.image(image)
